@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ganesh.Gramtalk.MainActivity" >
+
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/Lable"
+        android:textSize="20sp"
+        android:id="@+id/textlable"
+         />
+             
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginTop="200sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+   	    android:text="@string/Sub"
+   	    android:textSize="20sp"
+   	    android:id="@+id/Subbutton" />
+   	 
+   	<Button
+   	    android:id="@+id/Addbutton"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginRight="20dp"
+   	    android:layout_marginTop="200sp"
+   	    android:layout_toRightOf="@+id/textlable"
+   	    android:text="@string/Add"
+   	    android:textSize="20sp" />
+
+   		<Button
+   		    android:id="@+id/Clear"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_alignRight="@+id/Subbutton"
+   		    android:layout_below="@+id/Subbutton"
+   		    android:layout_marginTop="76dp"
+   		    android:text="@string/Clear"
+   		    android:textSize="20sp" />
+
+</RelativeLayout>
